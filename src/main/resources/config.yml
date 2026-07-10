@@ -1,0 +1,17 @@
+# =========================================
+# Prison Plugin - Konfiguration
+# =========================================
+
+money-booster-percent-per-level: 1.0
+shades-booster-percent-per-level: 1.0
+
+shades-per-block: 1
+
+messages:
+  prefix: "&8[&6Prison&8] &r"
+  no-permission: "&cDu hast keine Berechtigung dafür."
+  player-not-found: "&cSpieler nicht gefunden."
+  stage-complete: "&aStufe %stage% abgeschlossen! Du hast %money%$ erhalten."
+  blocktype-complete: "&6&lGlückwunsch! Du hast '%block%' komplett abgeschlossen!"
+  blocktype-unlocked: "&a&lNeue Blockart freigeschaltet: %block%!"
+  final-block-loop: "&d&lDu hast den letzten Block erreicht! Die Stufen beginnen von vorne, um weiter Geld zu verdienen."

@@ -1,0 +1,23 @@
+name: PrisonPlugin
+version: '1.0.0'
+main: de.prison.plugin.PrisonPlugin
+api-version: 1.21
+author: prison
+softdepend: [Vault]
+
+commands:
+  prison:
+    description: Öffnet das Prison-Menü
+    usage: /prison
+  prisonadmin:
+    description: Admin-Verwaltung für das Prison-System
+    usage: /prisonadmin <setshades|addshades|setprogress|givepickaxe|setenchant|listblocks>
+    aliases: [pa]
+
+permissions:
+  prison.use:
+    description: Darf das Prison-System nutzen
+    default: true
+  prison.admin:
+    description: Vollzugriff auf alle Prison-Admin-Befehle
+    default: op
